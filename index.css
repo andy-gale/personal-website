@@ -1,0 +1,86 @@
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+p {
+    font-size: 35px;
+    position: relative;
+}
+
+section .animate {
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+}
+
+section.show-animate .animate {
+    opacity: 1;
+    filter: blur(0);
+}
+
+.sec1 p {
+    color: #0ef;
+}
+
+.sec1 .animate {
+    transform: translateX(-100%);
+}
+
+.sec1.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec2 p {
+    color: #0f0;
+}
+
+.sec2 .animate {
+    transform: translateX(100%);
+}
+
+.sec2.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec3 p {
+    color: #e0f;
+}
+
+.sec3 .animate {
+    transform: scale(.7);
+}
+
+.sec3.show-animate .animate {
+    transform: scale(1);
+}
+
+.sec4 p {
+    color: #ff0;
+}
+
+.sec4 .showRight-animate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* change to liking */
+    transition: 1s;
+}
+
+.sec4.show-animate .showRight-animate {
+    width: 0;
+}

@@ -13,6 +13,7 @@ nav {
     height: 80px;
     width: 100%;
     background: #2f3640; /* change to liking */
+    position: fixed;
 }
 
 label.logo {
@@ -59,9 +60,16 @@ nav #icon {
 }
 
 section {
-    background: url(imported_files/black-1072366_1920.jpg) no-repeat; /* background color or can use url() */
+    background: black no-repeat; /* background color or can use url() */
     background-size: cover;
     height: calc(100vh - 80px);
+    font-family: chalk-custom;
+    color: white;
+}
+
+@font-face {
+    font-family: 'chalk-custom';
+    src: url(imported_files/KGTenThousandReasons.ttf);
 }
 
 @media ( max-width: 1048px ) {
