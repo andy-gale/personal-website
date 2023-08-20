@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title> Andrew Gale - Home Page </title>
+        <title> Andrew Gale </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="index.css">
@@ -18,12 +18,11 @@
     </head>
     <body>
         <nav>
-            <label class="logo"> Andrew Gale </label>
             <ul>
-                <li><a href="#home"> Home </a></li>
-                <li><a href="#about"> About </a></li>
-                <li><a href="#portfolio"> Portfolio </a></li>
-                <li><a href="#contact"> Contact </a></li>
+                <li class="links"><a href="#home"> Home </a></li>
+                <li class="links"><a href="#about"> About </a></li>
+                <li class="links"><a href="#portfolio"> Portfolio </a></li>
+                <li class="links"><a href="#contact"> Contact </a></li>
         </ul>
         <label id="icon">
             <i class="bi bi-list"></i>
@@ -32,8 +31,10 @@
         <section id="home" class="sec1 show-animate">
 
             <div class="section-content">
-                <h1 class="animate"> H1 content </h1>
-                <p class="animate"> p content </p>
+                <h1 class="animate">
+                     Andrew Gale 
+                </h1>
+                <p class="animate"> computer engineer </p>
             </div>
             
         </section>
@@ -66,6 +67,20 @@
         </section>
 
         <script src="script.js"></script>
+
+        <script>
+            const li=document.querySelectorAll(".links");
+            const sec=document.querySelectorAll("section");
+
+            function activeMenu() {
+                let len=sec.length;
+                while(--len && window.scrollY + 97 < sec[len].offsetTop) {}
+                li.forEach(ltx => ltx.classList.remove("active"));
+                li[len].classList.add("active");
+            }
+            activeMenu();
+            window.addEventListener("scroll", activeMenu)
+        </script>
 
     </body>
 </html>

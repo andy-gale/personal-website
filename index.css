@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     overflow: hidden;
 }
 
@@ -35,6 +35,10 @@ section.show-animate .animate {
     color: #0ef;
 }
 
+.sec1 h1 {
+    text-shadow: 5px 10px 5px rgba(0, 238, 255, 0.712);
+}
+
 .sec1 .animate {
     transform: translateX(-100%);
 }
@@ -45,6 +49,10 @@ section.show-animate .animate {
 
 .sec2 p {
     color: #0f0;
+}
+
+.sec2 h1 {
+    text-shadow: 5px 10px 5px rgba(0, 255, 0, 0.6);
 }
 
 .sec2 .animate {
@@ -59,6 +67,10 @@ section.show-animate .animate {
     color: #e0f;
 }
 
+.sec3 h1 {
+    text-shadow: 5px 10px 5px rgba(238, 0, 255, 0.6);
+}
+
 .sec3 .animate {
     transform: scale(.7);
 }
@@ -71,13 +83,17 @@ section.show-animate .animate {
     color: #ff0;
 }
 
+.sec4 h1 {
+    text-shadow: 5px 10px 5px rgba(255, 255, 0, 0.6);
+}
+
 .sec4 .showRight-animate {
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
-    background: black; /* change to liking */
+    background: black; /* change to liking, match to background */
     transition: 1s;
 }
 
