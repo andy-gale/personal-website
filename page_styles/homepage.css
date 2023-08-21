@@ -19,6 +19,7 @@
     background: #0ef;
     border-radius: 200px;
     box-shadow: inset 0px 0px 40px 40px rgba(0, 200, 255, 0.8);
+    filter: blur(1px); /* change to animation or effect maybe later */
 }
 
 
