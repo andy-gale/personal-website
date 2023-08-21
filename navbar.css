@@ -130,4 +130,5 @@ section {
     display: inline-block;
     border-radius: 8px;
     transition: 0.7s;
+    line-height: 78px;
 }
