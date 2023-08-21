@@ -102,12 +102,12 @@ section.show-animate .animate {
 }
 
 #home {
-    background: linear-gradient(#2f3640 18%, rgba(0, 238, 255, 0.2));
+    background: linear-gradient(#2f3640 18%, rgba(0, 255, 255, 0.3));
     height: 100vh;
 }
 
 #about {
-    background: linear-gradient(rgba(0, 238, 255, 0.2), rgb(0,255,0,0.3));
+    background: linear-gradient(rgba(0, 255, 255, 0.3), rgb(0,255,0,0.3));
     height: 100vh;
 }
 
