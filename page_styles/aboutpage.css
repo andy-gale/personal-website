@@ -1,0 +1,13 @@
+.aboutpage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 88px;
+}

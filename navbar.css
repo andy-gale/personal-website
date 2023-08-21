@@ -129,6 +129,5 @@ section {
     background: rgba(255,255,255,0.1);
     display: inline-block;
     border-radius: 8px;
-    transition: 0.7s;
-    line-height: 78px;
+    line-height: 36px;
 }
