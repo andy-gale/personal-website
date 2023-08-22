@@ -4,8 +4,41 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Andrew Gale Contact Form </title>
+        <link rel="stylesheet" href="email.css">
     </head>
     <body>
+
+        <div class="wrapper">
+            
+            <form>
+                <div class="sender-info">
+                    <div class="form-input">
+                        <input type="text" id="name" required>
+                        <label for="name"> Your Name </label>
+                    </div>
+
+                    <div class="form-input">
+                        <input type="text" id="number" required>
+                        <label for="number"> Number </label>
+                    </div>
+                </div>
+                
+
+                <div class="form-input">
+                    <input type="text" id="email" required>
+                    <label for="email"> Email </label>
+                </div>
+
+                <div class="form-input">
+                    <textarea id="message" rows="10" required></textarea>
+                    <label for="message"> Message </label>
+                </div>
+
+                <button type="submit"> Submit </button>
+
+            </form>
+
+        </div>
 
     </body>
 </html>
