@@ -51,9 +51,10 @@ button {
     color: white;
     background: transparent;
     border: 2px solid white;
-    width: 100%;
     cursor: pointer;
     border-radius: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 input:focus~label, input:valid~label {
@@ -74,4 +75,10 @@ textarea:focus~label, textarea:valid~label {
 
 .sender-info .form-input {
     flex-basis: 48%;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+
 }

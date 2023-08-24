@@ -126,7 +126,7 @@ section {
 }
 
 .active {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.3);
     display: inline-block;
     border-radius: 8px;
     line-height: 36px;

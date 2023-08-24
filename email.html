@@ -10,32 +10,31 @@
 
         <div class="wrapper">
             
-            <form>
+            <form action="https://formsubmit.co/agalecontact@gmail.com" method="POST">
                 <div class="sender-info">
                     <div class="form-input">
-                        <input type="text" id="name" required>
-                        <label for="name"> Your Name </label>
+                        <input type="text" name="name" id="name" required>
+                        <label for="name"> Name </label>
                     </div>
 
                     <div class="form-input">
-                        <input type="text" id="number" required>
-                        <label for="number"> Number </label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email"> Email </label>
                     </div>
                 </div>
-                
 
                 <div class="form-input">
-                    <input type="text" id="email" required>
-                    <label for="email"> Email </label>
-                </div>
-
-                <div class="form-input">
-                    <textarea id="message" rows="10" required></textarea>
+                    <textarea id="message" type="input" name="message" rows="10" required></textarea>
                     <label for="message"> Message </label>
                 </div>
 
-                <button type="submit"> Submit </button>
-
+                <div class="submit-button">
+                    <button type="submit"> Send </button>
+                </div>
+                
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://www.linkedin.com/in/andrew-gale-225b02259/"> <!-- send to your thankpage or other domain when u form submitted  -->
+                <input type="text" name="_honey" style="display: none">
             </form>
 
         </div>
