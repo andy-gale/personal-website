@@ -103,7 +103,7 @@ section.show-animate .animate {
 }
 
 #home {
-    background: linear-gradient(#2f3640 15%, rgba(0, 255, 255, 0.3));
+    background: linear-gradient(#2f3640 15%, rgba(0, 255, 255, 0.3) 85%);
     height: 100vh;
 }
 

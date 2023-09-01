@@ -12,6 +12,14 @@
     text-indent: 88px;
 }
 
+@media (max-width: 1050px ) {
+
+.about-me {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+}
 
 
 

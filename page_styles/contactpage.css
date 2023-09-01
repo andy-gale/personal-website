@@ -47,3 +47,19 @@
 .handshake {
     color: black;
 }
+
+@media (max-width: 1050px ) {
+    #contact a {
+        padding: 15px;
+        font-size: 24px;
+        border-radius: 18px;
+    }
+
+    .handshake-icon {
+        width: 24px;
+    }
+
+    .contact-icon {
+        font-size: 24px;
+    }
+}

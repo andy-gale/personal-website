@@ -20,6 +20,30 @@
     border-radius: 200px;
     box-shadow: inset 0px 0px 40px 40px rgba(0, 200, 255, 0.8);
     filter: blur(1px); /* change to animation or effect maybe later */
+    scale: 0.8;
 }
 
+@media (max-width: 1050px ) {
+
+.homepage {
+    flex-direction: column;
+}
+
+.homepage-text {
+    margin: 0;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.headshot {
+    scale: 0.6;
+}
+
+}
 
