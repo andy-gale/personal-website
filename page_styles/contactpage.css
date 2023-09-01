@@ -55,6 +55,10 @@
         border-radius: 18px;
     }
 
+    #contact {
+        padding: 18px;
+    }
+
     .handshake-icon {
         width: 24px;
     }
